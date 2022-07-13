@@ -10,7 +10,9 @@ app.use(cors());
 
 
 
-
+app.get("/" ,(req,res) =>{
+    res.send("Hello from server side");
+})
 
 app.get("/ladder_problem", (req, res)=>{
     try{
