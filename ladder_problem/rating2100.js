@@ -1,4 +1,4 @@
-rating2100 = [
+ladderproblems = [
     {serial_no: 1, problem_name :  'Fox And Snake',  contest_id :'510', problem_level : 'A' },
     {serial_no: 2, problem_name : 'Pangram', contest_id : '520', problem_level : 'A' },
     {serial_no: 3, problem_name : 'Vanya and Cubes',  contest_id :'492', problem_level : 'A' },
@@ -102,4 +102,4 @@ rating2100 = [
 ]
 
 
-module.exports ={rating2100}
+module.exports ={ladderproblems}
