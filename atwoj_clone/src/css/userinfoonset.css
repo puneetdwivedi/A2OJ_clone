@@ -1,0 +1,86 @@
+.App__UserInfoonset {
+  background-color: white;
+  width: 60%;
+  margin: 5px auto;
+  border-radius: 10px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 950px) {
+  .App__UserInfoonset {
+    width: 75%;
+  }
+}
+
+@media (max-width: 720px) {
+  .App__UserInfoonset {
+    width: 85%;
+  }
+}
+
+@media (max-width: 550px) {
+  .App__UserInfoonset {
+    width: 92%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .App__UserInfoonset {
+    width: 96%;
+  }
+}
+
+.App__UserInfoonset .userinfoset_left {
+  background-color: #f5f5f5;
+  border-radius: 7px;
+}
+
+.App__UserInfoonset .userinfoset_left div {
+  text-align: center;
+  color: #266ead;
+}
+
+.App__UserInfoonset .user__image {
+  width: 200px;
+  height: 200px;
+}
+
+.App__UserInfoonset .user__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.App__UserInfoonset .userinforset_right {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+@media (max-width: 550px) {
+  .App__UserInfoonset .userinforset_right {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .App__UserInfoonset .userinforset_right ul {
+    padding: 0px;
+  }
+}
+
+.App__UserInfoonset .userinforset_right li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=userinfoonset.css.map */

@@ -1,0 +1,36 @@
+.Problemlist{
+    // border: 1px black solid;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    font-size: 17px;
+    @media(max-width:550px){
+        width: 94%;
+    }
+    @media(max-width:400px){
+        font-size: 15px;
+    }
+    
+    & table{
+        width: 100%;
+        // border: 0.5px rgb(26, 24, 24) solid;
+        border-collapse: collapse;
+        
+    }
+    thead{
+        color: #5f86a9;
+    }
+    & td, th{
+        border: 0.3px rgb(124, 81, 81) solid;
+        padding: 5px;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    & .done_green{
+        background-color: lightgreen;
+    }
+}

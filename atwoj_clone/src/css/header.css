@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Roboto+Mono&display=swap");
+.App__Header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 12vh;
+  background-color: #4b5762;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 800px) {
+  .App__Header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 130px;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 435px) {
+  .App__Header {
+    background-color: transparent;
+    height: 170px;
+  }
+}
+
+.App__Header h1 {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.Header__usersearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 435px) {
+  .Header__usersearch {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 15px;
+  }
+}
+
+.Header__usersearch input, .Header__usersearch button {
+  width: 220px;
+  height: 35px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+}
+
+@media (max-width: 435px) {
+  .Header__usersearch input, .Header__usersearch button {
+    text-align: center;
+  }
+}
+
+.Header__usersearch input:focus-visible, .Header__usersearch button:focus-visible {
+  outline: none;
+}
+
+.Header__usersearch input:focus, .Header__usersearch button:focus {
+  -webkit-box-shadow: 0 0 0 2px #40a9ff;
+          box-shadow: 0 0 0 2px #40a9ff;
+}
+
+.Header__usersearch button {
+  width: 150px;
+  margin-left: 2vw;
+  padding: 2px;
+  cursor: pointer;
+  background-color: #1890ff;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+@media (max-width: 435px) {
+  .Header__usersearch button {
+    width: 220px;
+    margin-top: 6px;
+    margin-left: 0;
+  }
+}
+
+.Header__usersearch button:hover {
+  background-color: #40a9ff;
+}
+/*# sourceMappingURL=header.css.map */

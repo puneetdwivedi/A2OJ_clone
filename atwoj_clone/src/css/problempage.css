@@ -1,0 +1,84 @@
+.App__problempage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App__problempage .problemlistcotainer {
+  border: 1px black solid;
+  width: 50%;
+  min-height: 86vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+@media (max-width: 980px) {
+  .App__problempage .problemlistcotainer {
+    width: 65%;
+  }
+}
+
+@media (max-width: 850px) {
+  .App__problempage .problemlistcotainer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .App__problempage .problemlistcotainer {
+    width: 92%;
+  }
+}
+
+@media (max-width: 400px) {
+  .App__problempage .problemlistcotainer {
+    width: 96%;
+    font-size: 15px;
+  }
+}
+
+.App__problempage .problemlistcotainer_laddername {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+
+.App__problempage h2 {
+  color: #266ead;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .App__problempage h2 {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 380px) {
+  .App__problempage h2 {
+    font-size: 17px;
+  }
+}
+/*# sourceMappingURL=problempage.css.map */

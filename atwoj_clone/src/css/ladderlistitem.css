@@ -1,0 +1,28 @@
+.LadderlistItem {
+  width: 100%;
+  font-size: 17px;
+}
+
+@media (max-width: 430px) {
+  .LadderlistItem {
+    font-size: 16px;
+  }
+}
+
+.LadderlistItem table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.LadderlistItem thead {
+  color: #5f86a9;
+}
+
+.LadderlistItem td, .LadderlistItem th {
+  border: 0.3px #7c5151 solid;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=ladderlistitem.css.map */

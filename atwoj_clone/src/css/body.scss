@@ -1,0 +1,27 @@
+.App__body{
+    border: 1px black solid;
+    width: 50%;
+    min-height: 86vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+    @media (max-width:980px){
+        width: 65%;
+    }
+
+    @media (max-width:720px){
+        width: 85%;
+    }
+    @media (max-width:550px){
+        width: 92%;
+    }
+    @media (max-width:400px){
+        width: 96%;
+    }
+}

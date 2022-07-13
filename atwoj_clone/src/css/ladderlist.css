@@ -1,0 +1,41 @@
+.Body__Ladderlist {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 0;
+}
+
+.Body__Ladderlist .ladderlistname {
+  color: #266ead;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .Body__Ladderlist .ladderlistname {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .Body__Ladderlist {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .Body__Ladderlist {
+    width: 96%;
+  }
+}
+/*# sourceMappingURL=ladderlist.css.map */

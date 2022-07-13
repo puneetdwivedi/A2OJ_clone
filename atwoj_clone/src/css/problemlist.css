@@ -1,0 +1,47 @@
+.Problemlist {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+  font-size: 17px;
+}
+
+@media (max-width: 550px) {
+  .Problemlist {
+    width: 94%;
+  }
+}
+
+@media (max-width: 400px) {
+  .Problemlist {
+    font-size: 15px;
+  }
+}
+
+.Problemlist table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Problemlist thead {
+  color: #5f86a9;
+}
+
+.Problemlist td, .Problemlist th {
+  border: 0.3px #7c5151 solid;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+.Problemlist .done_green {
+  background-color: lightgreen;
+}
+/*# sourceMappingURL=problemlist.css.map */
