@@ -14,7 +14,7 @@ export default function Problemlist({division, difficulty, rating}){
 
     useEffect(()=>{
 
-        let baseurl = `https://puneet-atwoj.herokuapp.com/ladder_problem?`;
+        let baseurl = `https://puneet-atwoj.herokuapp.com/api/ladder_problem?`;
         if(rating !== null){
             baseurl = baseurl + `problem_rating=${rating}`;
         }

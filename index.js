@@ -10,11 +10,9 @@ app.use(cors());
 
 
 
-app.get("/" ,(req,res) =>{
-    res.send("Hello from server side");
-})
 
-app.get("/ladder_problem", (req, res)=>{
+
+app.get("/api/ladder_problem", (req, res)=>{
     try{
         const query = req.query;
         // console.log(query);
@@ -45,7 +43,7 @@ app.get("/ladder_problem", (req, res)=>{
 });
 
 
-app.use(express.static(path.join(__dirname, "/atwoj_clone")));
+app.use(express.static(path.join(__dirname, "/atwoj_clone/build")));
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '/atwoj_clone/build', 'index.html'));
