@@ -14,6 +14,9 @@ export default function Stausbutton({item, usersubmission}){
         if(sbmson.length > 0){
             setStts(true);
         }
+        else{
+            setStts(false);
+        }
 
     },[usersubmission]);
 
