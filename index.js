@@ -8,15 +8,9 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-
-
-
-
 app.get("/api/ladder_problem", (req, res)=>{
     try{
         const query = req.query;
-        // console.log(query);
-        // if(query.division === undefined || query)
 
         // path of ladder
         let ladderPath;
